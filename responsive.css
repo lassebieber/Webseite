@@ -1,0 +1,527 @@
+@media (min-width: 368px) {
+    .site-grid {
+      display:grid;   
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: 1fr;
+    }
+    .hide-mob {
+        display: none !important;
+    }
+      /* Sektion 1 */
+    .site-grid .firstleft{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        background: whitesmoke;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Links ausrichten */
+        flex-direction: column; /* Änderung zu Spaltenlayout */
+        position:relative;
+      }
+      .site-grid .firstright{
+        grid-column: 1/3;
+        grid-row: 2/3;
+        background: #f0f0f0;
+        height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Optional: adjust as needed */
+    }
+    .logo {
+        max-width: 20rem;
+        padding: 1rem 2rem 0;
+    }
+    .welcome-text {
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 46px; 
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: auto;
+        margin-top: auto;
+        padding: 3rem 0;
+    }
+
+    @media (max-width: 367px) {
+      .site-grid {
+        display:grid;   
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr;
+      }
+      .hide-mob {
+          display: none !important;
+      }
+        /* Sektion 1 */
+      .site-grid .firstleft{
+          grid-column: 1/3;
+          grid-row: 1/2;
+          background: whitesmoke;
+          height: 50vh;
+          display: flex;
+          justify-content: center;
+          align-items: center; /* Links ausrichten */
+          flex-direction: column; /* Änderung zu Spaltenlayout */
+          position:relative;
+        }
+        .site-grid .firstright{
+          grid-column: 1/3;
+          grid-row: 2/3;
+          background: #f0f0f0;
+          height: 50vh;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around; /* Optional: adjust as needed */
+      }
+      .logo {
+          max-width: 20rem;
+          padding: 1rem 2rem 0;
+      }
+      .welcome-text {
+          text-align: left;
+          text-transform: uppercase;
+          font-size: 46px; 
+          font-weight: bold;
+          margin: 0;
+          margin-bottom: auto;
+          margin-top: auto;
+          padding: 3rem 0;
+      }
+
+
+
+
+    /* Sektion 2 */
+    .site-grid .secondleft{
+        grid-column: 1/7;
+        grid-row: 1/2;
+        background: whitesmoke;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; /* Links ausrichten */
+        flex-direction: column; /* Änderung zu Spaltenlayout */
+        position:relative;
+    }
+    .site-grid .secondright{
+        grid-column: 1/7;
+        grid-row: 2/3;
+        background: #f0f0f0;
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center /* Optional: adjust as needed */
+    }
+    .welcome-text4 {
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 42px; 
+        font-weight: bold;
+        margin: auto;
+        padding:  0 2rem;
+      }
+      .box {
+        
+        box-sizing: border-box;
+        height: calc(33.33% - 0.3rem);
+        background-color: #fff; /* Weiße Farbe für die Boxen */
+        transition: box-shadow 0.4s ease-in-out; /* Übergang für den Box-Shadow-Effekt */
+        text-align: center;
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box-text {
+        text-align: center; /* Text zentrieren */
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+      }  
+
+
+      
+    /* Sektion 3*/
+      .site-grid .thirdleft{
+        grid-column: 1/7;
+        grid-row: 1/2;
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .site-grid .thirdright{
+        grid-column: 1/7;
+        grid-row: 2/3;
+        height: 40vh;
+        display: flex;
+        flex-wrap: wrap;
+        background: whitesmoke;
+        justify-content: center;
+        align-items: flex-start; /* Links ausrichten */
+        flex-direction: column; /* Änderung zu Spaltenlayout */
+    }
+    .third-box-inner h3 {
+        margin-top:0.5rem;
+        font-size: 16px; /* Größe des h3-Titels anpassen */
+        margin-bottom: 10px; /* Abstand unter dem h3-Titel anpassen */
+        color: #333; /* Textfarbe anpassen */
+        line-height: 1.3; /* Zeilenhöhe anpassen */
+        width:80%;
+      }
+      .welcome-text {
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 48px; 
+        font-weight: bold;
+        margin: auto;
+      }
+      .welcome-text3 {
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 36px; 
+        font-weight: bold;
+        margin: auto;
+        padding: 0 2rem;
+      }
+      .third-box-inner a {
+        font-size: 16px; /* Größe des Textes anpassen */
+        color:#dd0a30; /* Textfarbe anpassen */
+        position:absolute;
+        right:.5rem;
+        bottom:.5rem;
+      }
+
+    .fithsectionleft{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        background: whitesmoke;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; /* Links ausrichten */
+        flex-direction: column; /* Änderung zu Spaltenlayout */
+      }
+    
+      .fithsectionright{
+        grid-column: 1/3;
+        grid-row: 2/3;
+        background: #f0f0f0;
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Optional: adjust as needed */
+      }
+      .fithsectionright{
+        display:grid;   
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(5,1fr);
+      }
+      .welcome-text2{
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 36px; 
+        font-weight: bold;
+        margin: 0;
+        padding: 0 2rem;
+      }
+
+
+  }
+  
+  @media (min-width: 768px) {
+    .site-grid {
+      display:grid;   
+      grid-template-columns: repeat(6,1fr);
+    }
+    .hide-mob {
+        display: block !important;
+    }
+    .logo {
+        max-width: 30rem;
+    }
+    .welcome-text {
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 72px; 
+        font-weight: bold;
+        margin: auto;
+      }
+    .site-grid .firstleft{
+        grid-column: 1/7;
+        grid-row: 1/2;
+        background: whitesmoke;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Links ausrichten */
+        flex-direction: column; /* Änderung zu Spaltenlayout */
+        position:relative;
+      }
+      .site-grid .firstright{
+        grid-column: 1/7;
+        grid-row: 2/3;
+        background: #f0f0f0;
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Optional: adjust as needed */
+    }
+    
+    /* Sektion 2 */
+    .site-grid .secondleft{
+        grid-column: 1/7;
+        grid-row: 1/2;
+        background: whitesmoke;
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; /* Links ausrichten */
+        flex-direction: column; /* Änderung zu Spaltenlayout */
+        position:relative;
+    }
+    .site-grid .secondright{
+        grid-column: 1/7;
+        grid-row: 2/3;
+        background: #f0f0f0;
+        height: 75vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Optional: adjust as needed */
+    }
+    .welcome-text4 {
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 42px; 
+        font-weight: bold;
+        margin: auto;
+        padding:  0 2rem 0 7rem;
+      }
+    .box-text {
+    text-align: center; /* Text zentrieren */
+    font-size: 32px;
+    font-weight: bold;
+    }
+    .box {
+        flex: 0 0 calc(33.33% - .3rem);
+        box-sizing: border-box;
+        height: calc(33.33% - 0.3rem);
+        background-color: #fff; /* Weiße Farbe für die Boxen */
+        transition: box-shadow 0.4s ease-in-out; /* Übergang für den Box-Shadow-Effekt */
+        text-align: center;
+        padding-top:10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    .third-box-inner a {
+      font-size: 17px; /* Größe des Textes anpassen */
+      color:#dd0a30; /* Textfarbe anpassen */
+      position:absolute;
+      right:1rem;
+      bottom:1rem;
+      font-weight: BOLD;
+      text-decoration: none;
+    }
+
+    .third-box-inner a:hover {
+      text-decoration: underline;
+    }
+
+    .welcome-text3 {
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 48px; 
+        font-weight: bold;
+        margin: auto;
+        padding: 0 2rem;
+      }
+
+.fithsectionleft{
+    grid-column: 1/7;
+    grid-row: 1/2;
+    background: whitesmoke;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Links ausrichten */
+    flex-direction: column; /* Änderung zu Spaltenlayout */
+  }
+
+  .fithsectionright{
+    grid-column: 1/7;
+    grid-row: 2/3;
+    background: #f0f0f0;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Optional: adjust as needed */
+  }
+  .fithsectionright{
+    display:grid;   
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+  }
+  .welcome-text2{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 62px; 
+    font-weight: bold;
+    margin: 0;
+    padding: 0 2rem 0 7rem;
+  }
+
+
+ 
+        
+  }
+  @media (min-width: 996px) {
+    .site-grid {
+      display:grid;   
+      grid-template-columns: repeat(10,1fr);
+      grid-template-rows: none;
+    }
+    .logo {
+        max-width: 35rem;
+    }
+    .site-grid .firstleft{
+        grid-column: 1/5;
+        grid-row: 1/2;
+        background: whitesmoke;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Links ausrichten */
+        flex-direction: column; /* Änderung zu Spaltenlayout */
+        position:relative;
+      }
+      .site-grid .firstright{
+        grid-column: 5/11;
+        grid-row: 1/2;
+        background: #f0f0f0;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Optional: adjust as needed */
+    }
+
+      /* Sektion 2 */
+      .site-grid .secondleft{
+        grid-column: 1/5;
+        grid-row: 1/2;
+        background: whitesmoke;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Links ausrichten */
+        flex-direction: column; /* Änderung zu Spaltenlayout */
+        position:relative;
+    }
+    .site-grid .secondright{
+        grid-column: 6/11;
+        grid-row: 1/2;
+        background: #f0f0f0;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Optional: adjust as needed */
+    }
+    .welcome-text4 {
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 66px; 
+        font-weight: bold;
+        margin: auto;
+        padding:  0 2rem 0 7rem;
+      }
+
+
+
+
+         /* Sektion 3*/
+         .site-grid .thirdleft{
+            grid-column: 1/6;
+            grid-row: 1/2;
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .site-grid .thirdright{
+            grid-column: 6/11;
+            grid-row: 1/2;
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            background: whitesmoke;
+            justify-content: center;
+            align-items: flex-start; /* Links ausrichten */
+            flex-direction: column; /* Änderung zu Spaltenlayout */
+        }
+        .third-box-inner h3 {
+            margin-top:0.5rem;
+            font-size: 28px; /* Größe des h3-Titels anpassen */
+            margin-bottom: 10px; /* Abstand unter dem h3-Titel anpassen */
+            color: #333; /* Textfarbe anpassen */
+            line-height: 1.3; /* Zeilenhöhe anpassen */
+            width:80%;
+          }
+
+          .third-box-inner h4 {
+            margin-top:0.5rem;
+            font-size: 24px; /* Größe des h3-Titels anpassen */
+            margin-bottom: 10px; /* Abstand unter dem h3-Titel anpassen */
+            color: white; /* Textfarbe anpassen */
+            line-height: 1.3; /* Zeilenhöhe anpassen */
+            width:80%;
+          }
+          .welcome-text {
+            text-align: left;
+            text-transform: uppercase;
+            font-size: 72x; 
+            font-weight: bold;
+          }
+          .welcome-text3 {
+            text-align: left;
+            text-transform: uppercase;
+            font-size: 72px; 
+            font-weight: bold;
+            margin: auto;
+            padding: 0 2rem 0 6rem;
+          }
+
+        .fithsectionleft{
+            grid-column: 1/6;
+            grid-row: 1/2;
+            background: whitesmoke;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Links ausrichten */
+            flex-direction: column; /* Änderung zu Spaltenlayout */
+            }
+
+            .fithsectionright{
+            grid-column: 6/11;
+            grid-row: 1/2;
+            background: #f0f0f0;
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Optional: adjust as needed */
+            }
+            .fithsectionright{
+            display:grid;   
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows: repeat(5,1fr);
+            }
+            .welcome-text2{
+                text-align: left;
+                text-transform: uppercase;
+                font-size: 72px; 
+                font-weight: bold;
+                margin: 0;
+                padding: 0 2rem 0 7rem;
+              }
+  }
